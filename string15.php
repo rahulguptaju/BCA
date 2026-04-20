@@ -12,5 +12,6 @@ $y = explode(" ", $x);
 print_r($y);
 ?> 
 
+
 </body>
 </html>

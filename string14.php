@@ -3,12 +3,12 @@
 <body>
 
 <h2>The trim() Function</h2>
-
+<pre>
 <?php
 $x = "     Hello World! ";
 echo trim($x);
 ?> 
-
+<pre>
 <p>The whitespaces are invisible in plain HTML,<br>
 but check out the difference in two input fields:</p>
 

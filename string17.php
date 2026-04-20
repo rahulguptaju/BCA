@@ -5,7 +5,7 @@
 <?php
 $x = "Hello";
 $y = "World";
-$z = $x . "\t" . $y;
+$z = $x . "  " . $y;
 echo $z;
 ?>
 <pre>
