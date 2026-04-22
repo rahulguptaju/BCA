@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h2>Cast to Integer</h2>
+<h2>Cast to Float</h2>
 
 <pre>
 <?php
@@ -14,13 +14,13 @@ $e = "hello"; // String
 $f = true;    // Boolean
 $g = NULL;    // NULL
 
-$a = (int) $a;
-$b = (int) $b;
-$c = (int) $c;
-$d = (int) $d;
-$e = (int) $e;
-$f = (int) $f;
-$g = (int) $g;
+$a = (float) $a;
+$b = (float) $b;
+$c = (float) $c;
+$d = (float) $d;
+$e = (float) $e;
+$f = (float) $f;
+$g = (float) $g;
 
 // Use var_dump() to verify the data type
 var_dump($a);
@@ -33,8 +33,8 @@ var_dump($g);
 ?> 
 </pre>
 
-<p>When casting a string that starts with a number, (int) gets that number.</p>
-<p>If the string does not start with a number, (int) convert strings to 0.</p>
+<p>When casting a string that starts with a number, (float) gets that number.</p>
+<p>If the string does not start with a number, (float) convert strings to 0.</p>
 
 </body>
 </html>

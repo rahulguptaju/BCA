@@ -5,7 +5,8 @@
 <h2>The strrev() Function</h2>
 
 <?php
-$x = 22222;  //321
+function palindrome($x){
+      //321
 $temp=$x; //123
 $rev=0;
 while((int)$x>0){
@@ -20,6 +21,9 @@ if ($temp==$rev){
 else{
     echo "Not a Palindrome";
 }
+}
+$y = 11233211;
+palindrome($y);
 ?> 
  
 </body>

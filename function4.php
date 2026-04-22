@@ -18,7 +18,7 @@ function pnz($a) {
         return "Negative";
     }
 }
-echo pnz(12);
+echo pnz(-12);
 ?>
 
 </body>
